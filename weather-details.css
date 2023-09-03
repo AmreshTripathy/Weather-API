@@ -78,7 +78,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7vh;
+    height: 8vh;
     padding-inline: 3%;
     border-radius: 10px;
     background: #270846;
@@ -99,7 +99,7 @@
 
 .map>iframe {
     width: 95vw;
-    height: 68vh;
+    height: 66vh;
 }
 
 .data-section {
@@ -137,7 +137,7 @@
 
     .map>iframe {
         width: 96.5vw;
-        height: 63vh;
+        height: 61vh;
     }
 }
 
@@ -150,7 +150,7 @@
 
     .map>iframe {
         width: 94vw;
-        height: 57vh;
+        height: 55vh;
     }
 }
 
@@ -164,7 +164,7 @@
 
     .map>iframe {
         width: 92vw;
-        height: 45vh;
+        height: 43vh;
     }
 }
 
@@ -177,7 +177,7 @@
 
     .map>iframe {
         width: 89vw;
-        height: 37vh;
+        height: 35vh;
     }
 }
 
@@ -190,7 +190,7 @@
 
     .map>iframe {
         width: 88vw;
-        height: 34vh;
+        height: 32vh;
     }
 }
 
@@ -203,7 +203,7 @@
 
     .map>iframe {
         width: 88vw;
-        height: 25vh;
+        height: 22vh;
     }
 }
 
