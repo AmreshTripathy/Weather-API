@@ -75,7 +75,7 @@ function fetchWeather(lattitude, longitude) {
             wind_speed.innerHTML = "Wind Speed :  " + (parseFloat((data["wind"]["speed"] * 3.6).toFixed(3))) + "kmph";
             humidity.innerHTML = "Humidity : " + data["main"]["humidity"];
             time_zone.innerHTML = "Time Zone : " + secondsToTimeZoneString(data["timezone"]);
-            pressure.innerHTML = "Pressure : " + data["main"]["pressure"];
+            pressure.innerHTML = "Pressure : " + parseFloat((data["main"]["pressure"] / 1013.25)).toFixed(3) + "atm";
             wind_direction.innerHTML = "Wind Direction : " + degreesToWindDirection(data["wind"]["deg"]);
             uv_index.innerHTML = "UV Index : 500";
             feels_like.innerHTML = "Feels like : " + data["main"]["feels_like"];
