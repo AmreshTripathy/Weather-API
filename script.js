@@ -80,6 +80,10 @@ function fetchWeather(lattitude, longitude) {
             uv_index.innerHTML = "UV Index : 500";
             feels_like.innerHTML = "Feels like : " + data["main"]["feels_like"];
         })
+        .catch(error => {
+            window.open("index.html", "_self");
+            alert("Unable to Fetch API! " + error);
+        })
 }
 
 function secondsToTimeZoneString(timeZone) {
